@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+/*-------GERAL---------*/
+#geral { 	
+	min-height: 100%;
+	width:100%;	
+	position: relative;	
+	padding: 0px;	
+	/*	
+	font-size: 13px;
+	*/
+        
+}
+
+
+/*-------TOPO---------*/
+/*-------TOPO---------*/
+.hr_tit {
+	color: #fc6836;
+	background-color: #FFBD00;
+	height: 4px;
+	margin:0px;
+	padding:0px;
+	position: fixed;
+	top: 0px;
+	left: 0;
+	right: 0;
+	z-index:1002;
+	border: none;
+    }
+.hr_tit2 {
+color: #fff;
+background-color: #fff;
+height: 2px;
+margin:0px;
+padding:0px;
+position: fixed;
+top: 4px;
+left: 0;
+right: 0;
+z-index:1001;
+border: none;
+    }
+ .hr_rod {
+	color: #fc6836;
+	background-color: #EAEAEA;
+	height: 1px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left: 0;
+	right: 0;
+	border: none;
+    }
+.hr_esp {
+	height: 20px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left: 0;
+	right: 0;
+	border: none;
+    }
+
+ .hr_espfim {
+ 	background-image: linear-gradient(-90deg, rgba(0,133,59,255),rgba(31,79,55,255));
+	background-repeat:repeat-x;
+	height: 20px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left: 0;
+	right: 0;
+	border: none;
+    }
+.hr_espfim1 {
+ 	background-color: #fff;
+	height: 2px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left: 0;
+	right: 0;
+	border: none;
+    }
+.hr_espfim2 {
+	background-color: #FFBD00;
+	height: 4px;
+	margin:0px;
+	padding:0px;
+	position: relative;
+	left: 0;
+	right: 0;
+	border: none;
+    }
+
+#topo{
+	height:45px;	
+	background-image: linear-gradient(-90deg, rgba(0,133,59,255),rgba(31,79,55,255));
+	background-repeat:repeat-x;
+}
+
+#topo #topo_left{	
+	float:left;
+	height:45px;		
+	background-image: url(../images/bg_top_left.jpg);
+	background-repeat:no-repeat; 
+	padding-left:20px;
+}
+
+
+#topo_center{
+	margin: 15px 0 15px 0px;
+	font-size: 12px;
+	color:#FFFFFF;
+	/*
+	float:left;	
+	*/
+}
+
+#topo #topo_right{	
+	float:right;
+	height:35px;
+	width:122px;
+	background-image: url(../images/logo_govCe.jpg); 	
+}
+
+/*-------LOGO---------*/
+
+#logo{
+	background-image: url(../images/bg_logo_right.jpg);	
+	background-position:right;
+	background-repeat:no-repeat;
+	background-color: white; 
+	/*
+	display: block;
+	*/
+}
+
+#logo #logo_left{	
+
+	height:80px;
+	width:400px;
+}
+
+#logo_right{	
+	/*
+	float:right;
+	height:80px;
+	margin: -70px 30px 20px 0px;
+	*/
+	background-image: url(../images/bg_logo_right.jpg);	
+	background-position:right;
+	background-repeat:no-repeat;
+	background-color: white; 
+	font-size: 20pt;
+	font-family: 'Times New Roman',Times,serif;
+}
+
+#linha{
+	background-image: url(../images/bg_menu_itens.gif);	
+	height: 3px;
+}
+.linha_separa{
+	/*ackground-image: url(../images/bg_menu_itens.gif);*/
+	background-color: white;	
+	height: 2px;
+}
+#erro{
+	color:#A94442;
+	font-size:9pt;
+	font-weight:bold;
+	text-align: left;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+	/*	default 
+	color: #8a6d3b;
+	*/
+	background-color: #FFF0BE;
+	border-color: #faebcc;
+	
+  
+  	/* amarelo 
+  	color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+    */
+   
+    /* verde 
+  	color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    */
+    
+    /* azul 
+  	color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+    */
+}
+
+corpo {
+  preenchimento superior: 40px;
+  fundo de preenchimento: 40px;
+  cor de fundo: #eee;
+}
+
+.form-signin {
+  largura máxima: 330px;
+  preenchimento: 15px;
+  margem: 0 automático;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margem inferior: 10px;
+}
+.form-signin .checkbox {
+  peso da fonte: normal;
+}
+.form-signin .form-control {
+  posição: relativa;
+  altura: automático;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          dimensionamento de caixa: caixa de borda;
+  preenchimento: 10px;
+  tamanho da fonte: 16px;
+}
+.form-signin .form-control:focus {
+  índice z: 2;
+}
+.form-signin input[type="email"] {
+  margem inferior: -1px;
+  raio da borda inferior direita: 0;
+  raio da borda inferior esquerda: 0;
+}
+.form-signin input[type="password"] {
+  margem inferior: 10px;
+  raio da borda superior esquerda: 0;
+  raio da borda superior direita: 0;
+}
+.div_bg_normal{
+	background-image: url(../images/aesp_logo.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-top: 180px;
+	padding-bottom: 180px;
+	margin-bottom: 10px;
+}
